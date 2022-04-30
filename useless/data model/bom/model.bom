@@ -1,0 +1,42 @@
+
+
+public class Person
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Person"
+        property "de.generated" "true"
+{
+    public java.lang.Long age
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "age"
+                property update "true";
+    public string firstName
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "firstName"
+                property update "true";
+    public Person(java.lang.Long age, string firstName)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Person()
+                property "dataio.default" "true";
+}
+
+public class Response
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Response"
+        property "de.generated" "true"
+{
+    public string message
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "message"
+                property update "true";
+    public Response(string message)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Response()
+                property "dataio.default" "true";
+}
+

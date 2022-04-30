@@ -1,0 +1,16 @@
+
+# Person
+Person#concept.label = Person
+Person.Person(java.lang.Long,java.lang.String)#phrase.navigation = a new {Person} where {0, age} {1, firstName}
+Person.age#phrase.action = set the age of {this} to {age}
+Person.age#phrase.addition_setter = add {age} to the age of {this}
+Person.age#phrase.navigation = {age} of {this}
+Person.age#phrase.subtraction_setter = subtract {age} from the age of {this}
+Person.firstName#phrase.action = set the firstName of {this} to {firstName}
+Person.firstName#phrase.navigation = {firstName} of {this}
+
+# Response
+Response#concept.label = Response
+Response.Response(java.lang.String)#phrase.navigation = a new {Response} where {0, message}
+Response.message#phrase.action = set the message of {this} to {message}
+Response.message#phrase.navigation = {message} of {this}

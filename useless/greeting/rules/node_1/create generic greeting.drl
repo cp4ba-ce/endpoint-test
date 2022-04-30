@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>create generic greeting</name>
+  <uuid>7289e582-30c9-42d7-9c0a-bbd7523672c2</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to a new Response where
+		the message is "Hello, " + the firstName of Input + ". You are " + the age of Input + " years old!";]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
